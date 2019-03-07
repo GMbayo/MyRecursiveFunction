@@ -24,6 +24,8 @@ int main()
     return EXIT_SUCCESS;
 }
 
+//commentaire 1
+
 /**
 *
 * \param nb int an integer
@@ -33,12 +35,11 @@ int main()
 */
 int factorial(int nb, int result)
 {
-
-
-    for(int i = nb; i>0; i--)
-    {
-        result= result * i;
-    }
+        result= nb * result;
+        nb-=1;
+        if(nb>0){
+            result= factorial(nb,result);
+        }
 
     return result;
 }
