@@ -24,6 +24,13 @@ int main()
     return EXIT_SUCCESS;
 }
 
+/**
+*
+* \param nb int an integer
+* \param result int an integer
+* \result int the result of the factorial
+*
+*/
 int factorial(int nb, int result)
 {
 
