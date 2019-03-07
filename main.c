@@ -24,6 +24,8 @@ int main()
     return EXIT_SUCCESS;
 }
 
+//commentaire 1
+
 int factorial(int nb, int result)
 {
 
